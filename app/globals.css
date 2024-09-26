@@ -1,0 +1,320 @@
+/* Reset Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navLogo {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+
+  & a {
+    color: #ffffff;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #ffffff;
+  padding: 5px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+  transform: scale(1.05);
+}
+
+/* Student Check List */
+.studentCheckList {
+  margin: 20px 0;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.studentCheckList li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.2s ease;
+}
+
+.studentCheckList li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Checked List */
+.checkedList {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+/* Attendance Sections */
+.attendedAbsentStudent {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.attendedStudents,
+.absentStudent {
+  border-radius: 20px;
+  padding: 20px;
+  width: 30%;
+  transition: transform 0.3s ease;
+}
+
+.absentStudent {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  li>h4 {
+    font-weight: 700;
+    color: red;
+  }
+}
+
+.attendedStudents {
+  border: 2px solid rgb(10, 216, 10);
+  background-color: #e6ffe6;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  li>h4 {
+    font-weight: 700;
+    color: rgb(10, 216, 10);
+  }
+}
+
+/* Student List */
+.allStudentList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+/* Button Styles */
+button,
+.back-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover,
+.back-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+/* Students List */
+.studentsList {
+  display: flex;
+  justify-content: center;
+
+  & ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+  }
+
+  & li {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid gray;
+  }
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+/* Info Grid */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.info-item {
+  padding: 20px;
+  background-color: #e6f7ff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Attendance Summary */
+.attendance-summary {
+  padding: 20px;
+  background-color: #fff3e6;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Attendance List */
+.attendance-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.attendance-record {
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.attended {
+  background-color: #d4edda;
+}
+
+.not-attended {
+  background-color: #f8d7da;
+}
+
+/* Attendance Counts */
+.attendance-counts {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Back Button */
+.back-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: white;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.back-button:hover {
+  background-color: #005bb5;
+}

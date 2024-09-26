@@ -1,0 +1,421 @@
+{
+  "name": "9. Dönem Frontend Uzmanlık Sınıfı - Arda Toraman",
+  "period": "9",
+  "location": "Class 117",
+  "students": [
+    {
+      "id": 1,
+      "name": "Arda Toraman",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sudenur Taştekin",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Kadın",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sıla Kara",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Kadın",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Aysu Aşçı",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Kadın",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Berat Dimen",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Berk Uçar",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Doğa Savaş",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Kadın",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Doğukan Sarı",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ece Ceylan",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Kadın",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Fatih Can Kaya",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Furkan Coşar",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Halil İbrahim Korkmaz",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Kemal Özalp",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Kerem Kaçmaz",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Muhammed Baki Çağlayan",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Muhammet Hasan Türkmen",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Ece Sema Bekdemir",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Kadın",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Tunahan Orak",
+      "ePosta": "ornekmail@gmail.com",
+      "phone": "0 555 555 55 55",
+      "education": "Lisans",
+      "gender": "Erkek",
+      "number": "24242424",
+      "attendance": [
+        {
+          "date": "2024-09-01",
+          "isAttended": true
+        },
+        {
+          "date": "2024-09-02",
+          "isAttended": false
+        },
+        {
+          "date": "2024-09-03",
+          "isAttended": true
+        }
+      ]
+    }
+  ]
+}
